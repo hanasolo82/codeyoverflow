@@ -1,13 +1,13 @@
 import React from "react";
-import {comments} from './commentData';
-import Cards from "./Cards";
+import {comments} from "./commentData";
+import Card from "./Card";
 
 
 function App() {
   return (
     <div>
         {comments.map(comment =>
-        <Cards commentObject = {comment}/>
+        <Card commentObject = {comment}/>
         )} 
     </div>
   );   

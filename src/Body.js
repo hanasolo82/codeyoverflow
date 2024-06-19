@@ -7,9 +7,13 @@ import React from 'react';
  funciona Body específicamente solo con la commentpropiedad.
 
  el componente devuelva un <p>elemento que contenga la comment propiedad de props.*/
- function Body({props}) {
+ function Body(props) {
 
-    return <p>{props.comment}</p>
+    return (
+        <>
+          <p>{props.comment}</p>
+        </>
+    );
  };
 
  export default Body;
