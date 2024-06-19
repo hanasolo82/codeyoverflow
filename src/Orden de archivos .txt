@@ -1,0 +1,13 @@
+Orden de archivos 
+
+           index.html
+               |
+     index.js-- --style.css
+	             |
+	      App.js << comentData.js
+ 	             | 
+              Card
+               |
+             Header
+               |
+              Body
